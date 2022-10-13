@@ -1,6 +1,17 @@
 = Asciidoc
 include::includes/asciidoc-format-header.adoc[]
 
+== doc information
+
+.docinfo
+[format=csv, stripes=even, separator="'"]
+|===
+test,column,col2
+a,b,c
+d,e,f
+g,h,i
+|===
+
 == Introduction
 Asciidoctor container for use in Github actions and in headless mode.
 
