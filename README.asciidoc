@@ -1,3 +1,31 @@
 = Asciidoc
+//DOC INFO
+:year: 2022
+:org: Virtual Space and Global Communications Research
+:copyright: (C){year} {org} All Rights Reserved
+:classification: {org} - Confidential
+//DOC Formatiing and style
+:toc: right
+:sectnums:
+:sectnumlevels: 5
+:toclevels: 5
+:title-page:
+:data-uri:
+:allow-uri-read: true
+:doctype: book
+:book-flag: true
+:localdir: ./
+:libdir: /build/lib
+:imagesdir: {localdir}
+:source-highlighter: rouge
+:icons: font
+:!reproducible:
+:pdf-page-size: A4
+:pdf-stylesdir: {libdir}/themes
+:pdf-style: VSR-theme.yml
+:pdf-fontsdir: {libdir}/fonts
+:listing-caption: Listing
+//:title-logo-image: image:./chapter-logo/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
+:favicon: {libdir}/favicon.ico
 
 Asciidoctor container for use in Github actions and in headless mode
