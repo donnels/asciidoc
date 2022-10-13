@@ -6,9 +6,9 @@ name: asciidoc pdf and html
 
 on:
   push:
-    branches: [ main ]
+    branches: [ backup ]
   pull_request:
-    branches: [ main ]
+    branches: [ backup ]
 
 jobs:
   build:
