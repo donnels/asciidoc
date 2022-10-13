@@ -104,7 +104,8 @@ jobs:
           cosign --help
           cosign sign --help
           #cosign sign --force ${{ steps.meta.outputs.tags }}@${{ steps.build-and-push.outputs.digest }}
-             - name: Check for modified files
+
+      - name: Check for modified files
         id: git-check
         run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
         
