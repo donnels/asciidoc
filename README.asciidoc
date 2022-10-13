@@ -1,7 +1,7 @@
 = Asciidoc
 //DOC INFO
 :year: 2022
-:org: Virtual Space and Global Communications Research
+:org: Donnellan
 :copyright: (C){year} {org} All Rights Reserved
 :classification: {org} - Confidential
 //DOC Formatiing and style
@@ -22,7 +22,7 @@
 :!reproducible:
 :pdf-page-size: A4
 :pdf-stylesdir: {libdir}/themes
-:pdf-style: VSR-theme.yml
+:pdf-style: {org}-theme.yml
 :pdf-fontsdir: {libdir}/fonts
 :listing-caption: Listing
 //:title-logo-image: image:./chapter-logo/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
