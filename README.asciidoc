@@ -1,4 +1,18 @@
 = Asciidoc
 include::includes/asciidoc-format-header.adoc[]
 
-Asciidoctor container for use in Github actions and in headless mode
+== Introduction
+Asciidoctor container for use in Github actions and in headless mode.
+
+== todo
+* get the template running.
+* get the toc running
+
+== add a few pages
+just get some stuff in here.
+
+[appendix]
+== example glossary
+test:: just testing
+ABC:: DEF
+ACME:: another test
