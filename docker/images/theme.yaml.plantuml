@@ -1,3 +1,4 @@
+@startyaml
 font:
   catalog:
     IBMPlexSans:
@@ -237,3 +238,4 @@ footer:
       content: $footer_recto_right_content
     center:
       content: $footer_recto_center_content
+@endyaml
