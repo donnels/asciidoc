@@ -268,7 +268,7 @@ header:
     #right:
     #  content: 
     left:
-      content: image:{libdir}/themes/VSR-logo-space.svg[pdfwidth=2.24cm,pdfheight=0,91cm]
+      content: image:{pdf-stylesdir}/VSR-logo-space.svg[pdfwidth=2.24cm,pdfheight=0,91cm]
     center:
       content: |
         {document-title} +
@@ -283,41 +283,21 @@ header:
       content: $header_recto_left_content
 footer:
   font_size: $base_font_size_small
-  # NOTE if background_color is set, background and border will span width of page
   border_color: dddddd
   border_width: 0.25
-  #height: $base_line_height_length * 2.5
   height: 2.5cm
   line_height: 1
   padding: [$base_line_height_length / 2, 1, 0, 1]
   vertical_align: top
-  #image_vertical_align: <alignment> or <number>
-  # additional attributes for content:
-  # * {page-count}
-  # * {page-number}
-  # * {document-title}
-  # * {document-subtitle}
-  # * {chapter-title}
-  # * {section-title}
-  # * {section-or-chapter-title}
   recto:
-    #columns: "<50% =0% >50%"
     right:
       content: '{page-number}'
-      #content: '{section-or-chapter-title} | {page-number}'
-      #content: '{document-title} | {page-number}'
-    #center:
-    #  content: '{page-number}'
     center:
       content: |
         {copyright} +
         {classification}
   verso:
-    #columns: $footer_recto_columns
     left:
       content: $footer_recto_right_content
-      #content: '{page-number} | {chapter-title}'
-    #center:
-    #  content: '{page-number}'
     center:
       content: $footer_recto_center_content

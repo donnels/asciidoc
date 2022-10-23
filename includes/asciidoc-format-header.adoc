@@ -24,5 +24,5 @@
 :pdf-style: {org}-theme.yml
 :pdf-fontsdir: {libdir}/fonts
 :listing-caption: Listing
-:title-logo-image: image:/build/lib/themes/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
+:title-logo-image: image:{pdf-stylesdir}/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
 :favicon: {libdir}/favicon.ico
