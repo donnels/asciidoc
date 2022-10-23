@@ -268,7 +268,7 @@ header:
     #right:
     #  content: 
     left:
-      content: image:{libdir}/VSR-logo-space.svg[pdfwidth=2.24cm,pdfheight=0,91cm]
+      content: image:{libdir}/themes/VSR-logo-space.svg[pdfwidth=2.24cm,pdfheight=0,91cm]
     center:
       content: |
         {document-title} +
