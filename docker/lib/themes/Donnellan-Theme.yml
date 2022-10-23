@@ -268,7 +268,7 @@ header:
     #right:
     #  content: 
     left:
-      content: image:{pdf-stylesdir}/Donnellan-Crest.png[pdfwidth=2.24cm,pdfheight=0,91cm]
+      content: image:{pdf-themesdir}/Donnellan-Crest.png[pdfwidth=2.24cm,pdfheight=0,91cm]
     center:
       content: |
         {document-title} +
