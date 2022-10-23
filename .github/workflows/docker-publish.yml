@@ -87,8 +87,8 @@ jobs:
         run: |
           echo "$container"
           docker pull $container
-          docker run -v "$PWD":/documents/ --name asciidoc-to-pdf ghcr.io/donnels/asciidoc:main asciidoctor-pdf -D /documents/docs *.asciidoc
-          docker run -v "$PWD":/documents/ --name asciidoc-to-html ghcr.io/donnels/asciidoc:main asciidoctor -D /documents/docs *.asciidoc
+          docker run -v "$PWD":/documents/ --name asciidoc-to-pdf $container asciidoctor-pdf -D /documents/docs *.asciidoc
+          docker run -v "$PWD":/documents/ --name asciidoc-to-html $container asciidoctor -D /documents/docs *.asciidoc
         env:
           container: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
 
