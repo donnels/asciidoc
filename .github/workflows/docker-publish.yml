@@ -86,6 +86,7 @@ jobs:
       - name: run container against this repo
         run: |
           echo "$container"
+          docker pull $container
           docker run -v "$PWD":/documents/ --name asciidoc-to-pdf ghcr.io/donnels/asciidoc:main asciidoctor-pdf -D /documents/docs *.asciidoc
           docker run -v "$PWD":/documents/ --name asciidoc-to-html ghcr.io/donnels/asciidoc:main asciidoctor -D /documents/docs *.asciidoc
         env:
