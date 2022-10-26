@@ -35,3 +35,18 @@
 :pdf-themesdir: {libdir}/themes
 :pdf-fontsdir: {libdir}/fonts
 :title-logo-image: image:{pdf-themesdir}/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
+//
+//GITHUB settings
+ifdef::env-github[]
+:toc:
+:toc-placement!:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+ifdef::env-github[]
+toc::[]
+endif::[]
