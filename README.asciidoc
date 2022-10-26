@@ -15,7 +15,6 @@ Sean Donnellan,Initial Draft,Oct/2022,Example Asciidoc document
 == Introduction
 Asciidoctor container for use in Github actions and in headless mode.
 
-.WARNING
 [WARNING]
 ====
 This is a warning
