@@ -5,6 +5,17 @@
 :copyright: (C){year} {org} All Rights Reserved
 :classification: {org} - Un-classified
 //
+//GITHUB settings
+ifdef::env-github[]
+:imagesdir:
+ https://gist.githubusercontent.com/path/to/gist/revision/dir/with/all/images
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+//
 //DOC Formatiing and style
 :title-page:
 :toc: right
@@ -16,9 +27,7 @@
 :doctype: book
 //set bookflag in main document if adding chapters etc that will be built solo AND integrated
 :book-flag: true
-ifndef::env-github[]
 :icons: font
-endif::[]
 :listing-caption: Listing
 :source-highlighter: rouge
 //
@@ -37,14 +46,4 @@ endif::[]
 :pdf-themesdir: {libdir}/themes
 :pdf-fontsdir: {libdir}/fonts
 :title-logo-image: image:{pdf-themesdir}/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
-//
-//GITHUB settings
-ifdef::env-github[]
-:imagesdir:
- https://gist.githubusercontent.com/path/to/gist/revision/dir/with/all/images
-:tip-caption: :bulb:
-:note-caption: :information_source:
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
+
