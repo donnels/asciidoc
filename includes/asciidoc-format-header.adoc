@@ -16,7 +16,9 @@
 :doctype: book
 //set bookflag in main document if adding chapters etc that will be built solo AND integrated
 :book-flag: true
+ifndef::env-github[]
 :icons: font
+endif::[]
 :listing-caption: Listing
 :source-highlighter: rouge
 //
