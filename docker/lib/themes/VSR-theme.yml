@@ -206,7 +206,7 @@ header:
   recto:
     columns: "<3.5cm =5cm >3.5cm"
     left:
-      content: image:{pdf-themesdir}/test.svg[pdfwidth=2.24cm,pdfheight=0,91cm]
+      content: image:VSR-logo-space.svg[pdfwidth=2.24cm,pdfheight=0,91cm]
     center:
       content: |
         {document-title} +
