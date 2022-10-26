@@ -1,15 +1,15 @@
-= Asciidoc
+= Asciidoc Example Document
 include::includes/asciidoc-format-header.adoc[]
 
-== doc information
+== Document information
 
-.docinfo
-[format=csv, stripes=even, separator="'"]
+.Document information
+[format=csv, stripes=even, separator=",",options=header]
 |===
-test,column,col2
-a,b,c
-d,e,f
-g,h,i
+Author,Status,Date,Comment
+Sean Donnellan,Initial Draft,Oct/2022,Example Asciidoc document
+,,,
+,,,
 |===
 
 == Introduction

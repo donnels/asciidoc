@@ -1,8 +1,10 @@
-//DOC INFO
+//
+//General DOC INFO
 :year: 2022
 :org: VSR
 :copyright: (C){year} {org} All Rights Reserved
 :classification: {org} - Un-classified
+//
 //DOC Formatiing and style
 :title-page:
 :toc: right
@@ -12,15 +14,22 @@
 :data-uri:
 :allow-uri-read: true
 :doctype: book
+//set bookflag in main document if adding chapters etc that will be built solo AND integrated
 :book-flag: true
 :icons: font
-:favicon: {libdir}/favicon.ico
 :listing-caption: Listing
 :source-highlighter: rouge
+//
+//PATHS
 :localdir: ./
 :imagesdir: {localdir}
 :libdir: /build/lib
+//
+//HTML options
 :!reproducible:
+:favicon: {libdir}/favicon.ico
+//
+//PDF options
 :pdf-page-size: A4
 :pdf-theme: {org}-theme.yml
 :pdf-themesdir: {libdir}/themes
