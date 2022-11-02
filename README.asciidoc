@@ -19,6 +19,8 @@
 //
 //GITHUB settings
 ifdef::env-github[]
+:toc:
+:toc-placement!:
 :status:
 :tip-caption: :bulb:
 :note-caption: :information_source:
@@ -54,9 +56,9 @@ endif::env-github[]
 |===
 Author,Status,Date,Comment
 Sean Donnellan,Initial Draft,Oct/2022,Example Asciidoc document
-,,,
-,,,
 |===
+
+ifdef::env-github[toc::[]]
 
 == Introduction
 Asciidoctor container for use in Github actions and in headless mode.
