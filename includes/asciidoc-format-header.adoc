@@ -1,21 +1,4 @@
 //
-//General DOC INFO
-:year: 2022
-:org: VSR
-:copyright: (C){year} {org} All Rights Reserved
-:classification: {org} - Un-classified
-//
-//GITHUB settings
-ifdef::env-github[]
-:imagesdir:
- https://gist.githubusercontent.com/path/to/gist/revision/dir/with/all/images
-:tip-caption: :bulb:
-:note-caption: :information_source:
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
-//
 //DOC Formatiing and style
 :title-page:
 :toc: right
