@@ -30,6 +30,8 @@ ifdef::env-github[]
 endif::[]
 include::includes/asciidoc-format-header.adoc[]
 
+ifdef::env-github[toc::[]]
+
 == Document information
 
 ====
@@ -55,8 +57,6 @@ endif::env-github[]
 Author,Status,Date,Comment
 Sean Donnellan,Initial Draft,Oct/2022,Example Asciidoc document
 |===
-
-ifdef::env-github[toc::[]]
 
 == Introduction
 Asciidoctor container for use in Github actions and in headless mode.
