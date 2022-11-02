@@ -32,24 +32,22 @@ include::includes/asciidoc-format-header.adoc[]
 
 == Document information
 
-ifndef::env-github[]
-:hardbreaks-option:
 ====
 .Links to Document
+ifndef::env-github[]
+:hardbreaks-option:
 icon:compass[2x,link="{url-repo-pages}"] Document online
 icon:github[2x,link="{url-repo}"] Document Source
 icon:file-pdf-o[2x,link="{url-repo-pages-pdf}"] Document PDF
-====
+
 :!hardbreaks-option:
 endif::env-github[]
 ifdef::env-github[]
-====
-.Links to Document
 * link:{url-repo-pages}[Document online ^]
 * link:{url-repo}[Document Source ^]
 * link:{url-repo-pages-pdf}[Document PDF ^]
-====
 endif::env-github[]
+====
 
 .Document information
 [format=csv, stripes=even, separator=",",options=header]
