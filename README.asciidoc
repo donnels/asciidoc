@@ -60,18 +60,62 @@ Sean Donnellan,Initial Draft,Oct/2022,Example Asciidoc document
 
 == Introduction
 Asciidoctor container for use in Github actions and in headless mode.
+This repository builds a container that can create output from asciidoc documents.
+
+== Github Actions
+
+== Example asciidoc
+This section containe some example asciidoc material.
+
+=== Admonitions
 
 [WARNING]
 ====
 This is a warning
 ====
 
-== todo
-* get the template running.
-* get the toc running
+[NOTE]
+====
+This is a note
+====
 
-== add a few pages
-just get some stuff in here.
+[CAUTION]
+====
+This should Caution you
+====
+
+[TIP]
+====
+Something to think about or some wise words
+====
+
+=== Lists
+
+.A bulleted list
+* item 1
+* item 45
+** sub item
+
+.A checkbox list
+* [ ] item 1
+* [x] item 2
+* [ ] item 3
+** [x] sub item
+
+.A numbered list
+. item 1
+. item 2
+.. sub item
+... sub sub item
+
+.Another list (no sub items possible)
+- item 1
+- item 20
+
+=== Figures
+
+.An image caption
+image::./images/image.png[]
 
 [appendix]
 == example glossary
