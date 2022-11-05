@@ -123,3 +123,4 @@ image::./images/image.png[]
 test:: just testing
 ABC:: DEF
 ACME:: another test
+DEF:: ABC
