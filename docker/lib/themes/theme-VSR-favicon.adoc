@@ -1,1 +1,1 @@
-:favicon: {libdir}/favicon.png
+:favicon: {libdir}/favicon.ico
