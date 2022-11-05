@@ -19,14 +19,13 @@
 :imagesdir: {localdir}
 :libdir: /build/lib
 //
-//HTML options
-:!reproducible:
-:favicon: {libdir}/favicon.ico
-//
 //PDF options
 :pdf-page-size: A4
 :pdf-theme: theme-{org}.yml
 :pdf-themesdir: {libdir}/themes
 :pdf-fontsdir: {libdir}/fonts
 :title-logo-image: image:{pdf-themesdir}/theme-VSR-logo-space.svg[pdfwidth=2.5in,align=right]
-
+//
+//HTML options
+:!reproducible:
+include::{pdf-themesdir}/theme-{org}-favicon.adoc[]
