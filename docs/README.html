@@ -447,8 +447,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li><a href="#_document_information">1. Document information</a></li>
 <li><a href="#_introduction">2. Introduction</a></li>
-<li><a href="#_todo">3. todo</a></li>
-<li><a href="#_add_a_few_pages">4. add a few pages</a></li>
+<li><a href="#_github_actions">3. Github Actions</a></li>
+<li><a href="#_example_asciidoc">4. Example asciidoc</a>
+<ul class="sectlevel2">
+<li><a href="#_admonitions">4.1. Admonitions</a></li>
+<li><a href="#_lists">4.2. Lists</a></li>
+<li><a href="#_figures">4.3. Figures</a></li>
+</ul>
+</li>
 <li><a href="#_example_glossary">Appendix A: example glossary</a></li>
 </ul>
 </div>
@@ -498,8 +504,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_introduction">2. Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Asciidoctor container for use in Github actions and in headless mode.</p>
+<p>Asciidoctor container for use in Github actions and in headless mode.<br>
+This repository builds a container that can create output from asciidoc documents.</p>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_github_actions">3. Github Actions</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_example_asciidoc">4. Example asciidoc</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This section containe some example asciidoc material.</p>
+</div>
+<div class="sect2">
+<h3 id="_admonitions">4.1. Admonitions</h3>
 <div class="admonitionblock warning">
 <table>
 <tr>
@@ -514,28 +537,135 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 </table>
 </div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>This is a note</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>This should Caution you</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Something to think about or some wise words</p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_todo">3. todo</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_lists">4.2. Lists</h3>
+<div class="ulist">
+<div class="title">A bulleted list</div>
+<ul>
+<li>
+<p>item 1</p>
+</li>
+<li>
+<p>item 45</p>
 <div class="ulist">
 <ul>
 <li>
-<p>get the template running.</p>
+<p>sub item</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="ulist checklist">
+<div class="title">A checkbox list</div>
+<ul class="checklist">
+<li>
+<p><i class="fa fa-square-o"></i> item 1</p>
 </li>
 <li>
-<p>get the toc running</p>
+<p><i class="fa fa-check-square-o"></i> item 2</p>
+</li>
+<li>
+<p><i class="fa fa-square-o"></i> item 3</p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p><i class="fa fa-check-square-o"></i> sub item</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="olist arabic">
+<div class="title">A numbered list</div>
+<ol class="arabic">
+<li>
+<p>item 1</p>
+</li>
+<li>
+<p>item 2</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>sub item</p>
+<div class="olist lowerroman">
+<ol class="lowerroman" type="i">
+<li>
+<p>sub sub item</p>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Another list (no sub items possible)</div>
+<ul>
+<li>
+<p>item 1</p>
+</li>
+<li>
+<p>item 20</p>
 </li>
 </ul>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_figures">4.3. Figures</h3>
+<div class="imageblock">
+<div class="content">
+<img src="data:image/png;base64," alt="image">
 </div>
-<div class="sect1">
-<h2 id="_add_a_few_pages">4. add a few pages</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>just get some stuff in here.</p>
+<div class="title">Figure 1. An image caption</div>
+</div>
 </div>
 </div>
 </div>
@@ -563,7 +693,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-11-02 22:22:13 UTC
+Last updated 2022-11-02 22:42:45 UTC
 </div>
 </div>
 </body>
