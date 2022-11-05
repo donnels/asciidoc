@@ -7,7 +7,7 @@
 :toclevels: 5
 :data-uri:
 :allow-uri-read: true
-:doctype: book
+:doctype: article
 //set bookflag in main document if adding chapters etc that will be built solo AND integrated
 :book-flag: true
 :icons: font
