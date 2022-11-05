@@ -25,8 +25,8 @@
 //
 //PDF options
 :pdf-page-size: A4
-:pdf-theme: {org}-theme.yml
+:pdf-theme: theme-{org}.yml
 :pdf-themesdir: {libdir}/themes
 :pdf-fontsdir: {libdir}/fonts
-:title-logo-image: image:{pdf-themesdir}/VSR-logo-space.svg[pdfwidth=2.5in,align=right]
+:title-logo-image: image:{pdf-themesdir}/theme-VSR-logo-space.svg[pdfwidth=2.5in,align=right]
 
